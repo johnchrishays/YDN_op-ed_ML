@@ -72,9 +72,9 @@ def screen_out_bottom_garbage(author, text_list):
         return []
     if len(text_list[-1]) < 5: #sometimes article ends w/ random spaces or something
         text_list = text_list[:-1]
-    if "Correction" in text_list[-1]: #don't care about corrections
+    if len(text_list) > 0 and "Correction" in text_list[-1]: #don't care about corrections
         text_list = text_list[:-1]
-    if author != None and author in text_list[-1]: #screen out author name if there is one
+    if len(text_list) > 0 and author != None and author in text_list[-1]: #screen out author name if there is one
          text_list = text_list[:-1]
     return text_list
 
@@ -88,7 +88,7 @@ def complete_op_eds(links_file):
     links = links_raw[0]
     #text_list = []
     count = 0
-    for link in links:
+    for link in links[7910:]:
         new = extract_text(link)
         if new != None:
             count += 1
