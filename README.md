@@ -1,7 +1,11 @@
 # Recurrent Neural Network on the Yale Daily News Opinion Section
 
 ## Scraping the YDN website
-`YDN_article_read.py`: scrapes the Yale Daily News website for op-eds dating back 10 years. This provides a dataset of about 5 million words.
+`YDN_article_read.py`: scrapes the Yale Daily News website for op-eds dating back 10 years (all of the articles available online). This provides a dataset of about 5 million words.
+
+`ydn_oped_links_complete.csv`: List of all links to YDN opinion articles.
+
+`ydn_op_eds.txt`: Complete corpus that the model was trained on.
 
 ## Training a word-rnn on the data
 I used [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensorflow) for this part of the project.
