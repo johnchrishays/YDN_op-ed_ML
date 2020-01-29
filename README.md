@@ -1,7 +1,7 @@
 # Recurrent Neural Network on the Yale Daily News Opinion Section
 
 ## Scraping the YDN website
-`YDN_article_read.py`: scrapes the Yale Daily News website for op-eds dating back 10 years (all of the articles available online). This provides a dataset of about 5 million words.
+`YDN_article_read.py`: scrapes the Yale Daily News website for op-eds dating back 10 years (all of the articles available online). This provides a dataset of about 5 million words and 10k+ articles.
 
 `ydn_oped_links_complete.csv`: List of all links to YDN opinion articles.
 
