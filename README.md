@@ -11,7 +11,7 @@
 I used [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensorflow) for this part of the project.
 
 ## Results
-The generated text *almost* follows gramatical rules, although the content usually doesn't make sense. It was a stretch in the first place to think that the word-rnn can learn to mimic the style of the YDN in ~10 hours of training. But a few of the generated sentences were pretty funny. Here are some of my favorites:
+The generated text *almost* follows gramatical rules, although the content usually doesn't make sense. It was a stretch in the first place to think that the word-rnn can learn to mimic the style of the YDN in ~10 hours of training on a server in the CS department. But some of the generated sentences were pretty funny. Here are some of my favorites:
 
 >When I first got to Yale, sans high school potheads and Superman and charm, I found myself weeping.
 
